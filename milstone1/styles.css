@@ -1,0 +1,219 @@
+/*
+body {
+    background-color: rgb(23, 131, 231);
+    margin: 0;
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.Main-container {
+    display: flex;
+    gap: 20px;
+}
+
+.Resume {
+    text-align: left;
+}
+
+.img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #79ec0d;
+    box-shadow: 0px 0px 5px 5px rgb(238, 238, 241);
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+    height: 100vh;
+    text-align: center;
+    margin-top: 20px; 
+    max-width: 100%; 
+    height: auto;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+@keyframes rotate {
+    100% {
+        transform: rotate(1turn);
+    }
+}
+
+.left-section {
+    position: relative;
+    z-index: 0;
+    width: 550px;
+    height: 590px;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #fff;
+    margin-top: 100px;
+    margin-left: 100px;
+    box-shadow: 0px 0px 5px 5px rgb(247, 247, 250);
+    outline: none;
+	display:flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: flex-start;
+}
+
+.left-section::before {
+    content: '';
+    position: absolute;
+    z-index: -2;
+    left: 0;
+    top: -50%;
+    width: 200%;
+    height: 200%;
+    background-color: #399953;
+    background-repeat: no-repeat;
+    background-size: 50% 50%, 50% 50%;
+    background-position: 0 0, 100% 0, 100% 100%, 0 100%;
+    background-image: linear-gradient(#399953, #399953), linear-gradient(#fbb300, #fbb300), linear-gradient(#d53e33, #d53e33), linear-gradient(#377af5, #377af5);
+    animation: rotate 1s linear infinite;
+}
+
+.left-section::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    left: 6px;
+    top: 6px;
+    width: calc(100% - 12px);
+    height: calc(100% - 12px);
+    background: rgb(7, 33, 146);
+    border-radius: 5px;
+}
+
+.Right-section {
+    max-width: 400px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #377af5;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #2e6ec2;
+}
+
+
+.aim{
+	color: white;
+}
+
+.Objective{
+    border-radius: 10px;
+    border-width: 10px;
+	
+        padding: 10px;
+        box-shadow:
+          inset 0 -3em 3em rgb(0 200 0 / 30%),
+          0 0 0 2px rgb(29, 172, 29),
+          0.3em 0.3em 1em rgba(195, 216, 3, 0.6);
+          box-shadow: 0px 0px 5px 5px rgb(231, 231, 236);
+          outline: none;
+}
+
+*/
+
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1627;
+    margin: 0;
+    padding: 150px;
+}
+
+.resume-container {
+    display: flex;
+    background-color: rgb(82, 72, 72);
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 15px #0ae441;
+}
+
+/* Left Section Styling */
+.left-section {
+    background-color: #2c2c2c;
+    color: white;
+    padding: 20px;
+    width: 35%;
+    text-align: center;
+    border-right: 5px solid #5ce639;
+}
+
+.profile-picture {
+    width: auto;
+    height: 100px;
+    margin-top: 10%;
+    border-radius: 50%;
+    border: 1px solid #35d35d;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin: 10px 0;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 18px;
+    padding: 2%;
+    margin: 20px 0 10px;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #0ae441;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+ul {
+    list-style-type: fill round;
+    padding: 10;
+    margin: 10px 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+/* Right Section Styling */
+.right-section {
+    padding: 20px;
+    width: 65%;
+}
+
+button {
+    font-family: Arial, sans-serif;
+    border-radius: 10px;
+    box-shadow: 0 0 15px black;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #ff737c;
+}
